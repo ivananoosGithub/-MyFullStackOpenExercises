@@ -20,11 +20,13 @@ const App = () => {
     ]
   }
 
+  //Header Component
   const Header = (props) => {
     console.log(props)
     return <h1>{props.course.name}</h1>
   }
 
+  //Content Component
   const Content = (props) => {
     return(
       <div>
@@ -35,6 +37,7 @@ const App = () => {
       )
   }
 
+  //Total Component
   const Total = (props) => {
     return (
       <div>
